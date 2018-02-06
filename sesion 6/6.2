@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+
+if [ $# != 1 ] ; then
+	echo "Uso: ejercicio 6.2 <directorio>"
+	exit
+fi
+
+if `! test -d $1` ; then
+	mkdir $1
+	echo "El argumento no era un directorio existente, pero ya ha sido creado. Pruebe de nuevo."
+	exit
+fi
+
+ls -lo $1
+
+for LINEA in 

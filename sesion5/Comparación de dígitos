@@ -1,0 +1,7 @@
+#!/bin/bash
+#Titulo :		Comparación de números
+#Programa :		Determina si un numero A es mayor, igual o menor que un numero B.
+#Fecha :		4 / 11 / 16
+#Autor :		JJavier Alonso
+
+printf "\nSe han introducido los datos $1 y $2. Se mostrará si a>b, a=b o a<b en este orden.\n $[$1>$2], $[$1==$2], $[$1<$2] \n\n"

@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+
+read -p "Introduzca el número del mes o sus tres primeras letras para mostrar el mes completo " MES
+
+case "$MES" in
+	ene | 1 ) echo "El mes es Enero" ;;
+	feb | 2 ) echo "El mes es Febrero" ;;
+	mar | 3 ) echo "El mes es Marzo" ;;
+	abr | 4 ) echo "El mes es Abril" ;;
+	may | 5 ) echo "El mes es Mayo" ;;
+	jun | 6 ) echo "El mes es Junio" ;;
+	jul | 7 ) echo "El mes es Julio" ;;
+	ago | 8 ) echo "El mes es Agosto" ;;
+	* ) echo "Ha habido un error" ;;
+esac

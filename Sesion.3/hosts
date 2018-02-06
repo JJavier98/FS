@@ -1,0 +1,30 @@
+127.0.0.1	localhost
+127.0.1.1	ei140180
+127.0.0.2	ei140180
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+172.18.140.10 bacus0.ugr.es bacus0
+172.18.140.11 venus0.ugr.es venus0
+172.18.140.12 lepus0.ugr.es lepus0
+172.18.140.13 cetus0.ugr.es cetus0
+172.18.140.14 fenix0.ugr.es fenix0
+172.18.140.15 sepus0.ugr.es sepus0
+172.18.140.16 pirus0.ugr.es pirus0
+172.18.142.10 backup-etsiit2.ugr.es backup-etsiit2
+172.18.142.11 venus2.ugr.es venus2
+172.18.142.12 lepus2.ugr.es lepus2
+172.18.142.13 cetus2.ugr.es cetus2
+172.18.142.14 fenix2.ugr.es fenix2
+172.18.142.15 sepus2.ugr.es sepus2
+172.18.142.16 pirus2.ugr.es pirus2
+172.18.142.1 turing1.ugr.es turing1
+# Maquinas de los departamentos y necesarias para examen
+150.214.190.179 lsi.ugr.es lsi
+150.214.191.180 decsai.ugr.es decsai
+150.214.204.16 prado.ugr.es prado
+150.214.204.15 idp.ugr.es idp

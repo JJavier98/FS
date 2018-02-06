@@ -1,0 +1,10 @@
+#!/bin/bash
+
+read TECLA
+case "$TECLA" in
+	º | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) printf "Linea 1 \n" ;;
+ 	q | w | e | r | t | y | u | i | o | p ) printf "Linea 2 \n" ;;
+	a | s | d | f | g | h | j | k | l | ñ ) printf "Linea 3 \n" ;;
+	z | x | c | v | b | n | m ) printf "Linea 4 \n" ;;
+	*) printf "No se detecta la linea de teclado \n" ;;
+esac

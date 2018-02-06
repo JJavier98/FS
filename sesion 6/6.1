@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+
+if [ $# != 2 ] ; then
+	echo "Uso: ejercicio6.1 <directorio> <tamaño>"
+exit
+fi
+
+if `! test -d $1` ; then
+	echo "El primer argumento dado no es un directorio."
+exit
+fi
+
+for NUM in `seq 0 1 $2`;
+do
+	find $1 -size $NUM >> archivosSinN.txt
+done 

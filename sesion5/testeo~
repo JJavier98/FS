@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+
+exarchivo=`[ -f $1 ]&&[ -x $1 ]&& echo true || echo false`
+ensimarchivo=`test -h $1 && echo true || echo false`
+printf "\n\n ¿El archivo es plano y tiene permiso de ejecución?, ¿El archivo es un enlace simbólico?\n"
+printf "$exarchivo	$ensimarchivo \n\n"

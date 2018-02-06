@@ -1,0 +1,7 @@
+(Comprueba si $1 es un shell del sistema) Tipos de shells --> cat /etc/shells | grep $1 > /dev/null
+
+if [ $? == 1 ] ; then
+	echo "Debe introducir unas de las siguientes shell"
+	cat /etc/shells
+else
+	cat /etc/passwd | grep $1 | cut -d':' -f1 | sort

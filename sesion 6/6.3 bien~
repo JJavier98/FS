@@ -1,0 +1,12 @@
+read -p "Pulse una tecla : " TECLA
+fila=-1
+case $TECLA in
+	[01-9]) fila=0 ;;
+	[qwertyuiopQWERTYUIOP]) fila=1 ;;
+	[asdfghjklñASDFGHJKLÑ]) fila=2 ;;
+	[zxcvbnmZXCVBNM]) fila=3 ;;
+	*) printf " la tecla '$TECLA' no está en ninguna de las filas"
+esac
+if [ $fila != "-1" ] ; then
+	printf "La tecla '$TECLA' estña en la fila '$fila'"
+fi

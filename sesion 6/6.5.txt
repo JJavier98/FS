@@ -1,0 +1,11 @@
+valor=1
+
+while [ $valor == 1 ]
+do
+	read -p "Introduzca un valor entre 1 y 10: " dato
+	if [ $dato -ge 1 ] && [ $dato -le 10 ] ; then
+		valor=0 ;
+	fi
+done
+
+echo "Valor introducido: " $dato

@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# Acepta dos argumentos e imprime su relación.
+#
+declare -i x=$1
+declare -i y=$2
+
+esIgual=$[$x==$y]
+esMenor=$[$x<$y]
+esMayor=$[$x>$y]
+
+printf "Valores x=%s, y=%s. \n" $x $y
+printf "Comparacion x=y es %s\n" $esIgual
+printf "Comparacion x<y es %s\n" $esMenor
+printf "Comparacion x>y es %s\n" $esMayor
